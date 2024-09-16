@@ -21,7 +21,7 @@ menu:
 				# /////////////////////
 				# para continuar: vcs criam funções e linkam elas dentro desse while, e antes do "j menu", ou
 				# façam que, se o programa tiver que voltar para o começo do while, que vcs deem j menu:
-				# ex de link de função: jar random_number 
+				# ex de link de função: jal random_number 
 				# se quiserem que o programa acabe em determinado momento, vcs podem chamar o "end_menu", mas
 				# para retornar outro número além de 0 vcs tem q fazer outra syscall com a7 = 93 e setar esse numero
 end_menu:
